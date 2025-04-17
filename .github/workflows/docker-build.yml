@@ -1,9 +1,9 @@
-name: Build and Push Docker Image
+name: Build and Push Docker Image 
 
 on:
   push:
-    branches: ["main"]  # Se ejecuta al hacer push a main
-  workflow_dispatch:    # Permite ejecutarlo manualmente
+    branches: ["main"]
+  workflow_dispatch:
 
 jobs:
   build-and-push:
